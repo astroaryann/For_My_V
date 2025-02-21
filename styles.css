@@ -1,0 +1,90 @@
+body {
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #ffebf3;
+  color: #d6336c;
+  text-align: center;
+  padding: 50px;
+}
+
+.container {
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(214, 51, 108, 0.2);
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+button {
+  background-color: #d6336c;
+  color: white;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #a6264a;
+}
+
+.hidden {
+  display: none;
+}
+
+.options {
+  position: relative;
+  margin-top: 20px;
+}
+
+#progressContainer {
+  width: 100%;
+  background-color: #f3f3f3;
+  border-radius: 10px;
+  margin: 20px 0;
+}
+
+#progressBar {
+  width: 0%;
+  height: 20px;
+  background-color: #d6336c;
+  border-radius: 10px;
+  transition: width 0.5s;
+}
+
+#progressMessage {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}
+
+#funnyMessage img {
+  width: 200px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+#easterEgg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2rem;
+  color: #d6336c;
+}
+
+@keyframes panting {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+  100% { transform: scale(1); }
+}
